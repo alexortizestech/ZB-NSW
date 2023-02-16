@@ -1,0 +1,16 @@
+{
+"companyName": "MultiverseWars",
+"productName": "Seven's Time Warp",
+"productVersion": "0.1",
+"dataUrl": "dest.data.unityweb",
+"wasmCodeUrl": "dest.wasm.code.unityweb",
+"wasmFrameworkUrl": "dest.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.19f1"
+}

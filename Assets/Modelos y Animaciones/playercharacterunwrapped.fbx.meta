@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 1ba82c2bc4a251340ba604978eeffbdb
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1270417915786415722
+    second: root|mp_attack.slash.1
+  - first:
+      74: -4423222931536951758
+    second: root|mp_attack.slash.2
+  - first:
+      74: -9176235656485773
+    second: root|mp_attack.slash.combo.test
+  - first:
+      74: -2248707353913414539
+    second: root|mp_attack.slash.combo.tesT.2
+  - first:
+      74: 5975101176512342045
+    second: root|mp_death.static.2
+  - first:
+      74: -2415921946441936468
+    second: root|mp_enemy.idle
+  - first:
+      74: 476892165562210181
+    second: root|mp_enemy.idle.2
+  - first:
+      74: -8464964088244900374
+    second: root|mp_enemy.move
+  - first:
+      74: 1912546208488924818
+    second: root|mp_enemy.move.2
+  - first:
+      74: 5953050311623917376
+    second: root|mp_idle.FK
+  - first:
+      74: 3829373866620438277
+    second: root|mp_jump
+  - first:
+      74: -4512719995162576220
+    second: root|mp_jump.end
+  - first:
+      74: -4144048573855887963
+    second: root|mp_jump.fulltest
+  - first:
+      74: -458182626419839249
+    second: root|mp_jump.test
+  - first:
+      74: -7248694744753770891
+    second: root|mp_jump.wall.fulltest
+  - first:
+      74: -3595930748173722525
+    second: root|mp_jump.wall.test
+  - first:
+      74: -6617148280040928766
+    second: root|mp_recharge
+  - first:
+      74: 2076065120633279041
+    second: root|mp_recharge.2
+  - first:
+      74: 2390472853883549772
+    second: root|mp_recharge.fulltest
+  - first:
+      74: 1707493409790657918
+    second: root|mp_recharge.idle.2
+  - first:
+      74: 5816881309759922954
+    second: root|mp_recharge.unsheath
+  - first:
+      74: -8180822616705890638
+    second: root|mp_recharge.unsheath.2
+  - first:
+      74: -3634927670207330273
+    second: root|mp_recharge.unsheath.3
+  - first:
+      74: -1585649964282318493
+    second: root|mp_rigAction
+  - first:
+      74: 9117843785521926087
+    second: root|mp_run.cycle.2.FK
+  - first:
+      74: -5823840132026007799
+    second: root|mp_run.cycle.FK
+  - first:
+      74: -7890723500272672798
+    second: root|mp_run.cycle.FK.end
+  - first:
+      74: -3105298860847892394
+    second: root|mp_run.cycle.FK.fulltest
+  - first:
+      74: -687860041325309084
+    second: root|mp_run.cycle.FK.start
+  - first:
+      74: -7030471984423129742
+    second: root|mp_run.cycle.FK.test
+  - first:
+      74: 1769946396091831715
+    second: root|mp_run.jump.cycle.FK.fulltest.001
+  - first:
+      74: -4242883286552479911
+    second: root|mp_slash.attack
+  - first:
+      74: -4521169913690521797
+    second: root|mp_slash.attack.2
+  - first:
+      74: -5761163593619529479
+    second: root|mp_stun
+  - first:
+      74: -8576203200596586800
+    second: root|mp_t.pose
+  - first:
+      74: 8370614248750232224
+    second: root|mp_T.pose FK
+  - first:
+      74: 1735068593785120156
+    second: root|mp_wall.latch
+  - first:
+      74: 7750947452284827534
+    second: root|mp_wall.latch.idle
+  - first:
+      74: -1932937153931382248
+    second: root|mp_wall.latch.in
+  - first:
+      74: -8524241050307746545
+    second: root|mp_wall.latch.slidedown
+  - first:
+      74: -77084795423030508
+    second: root|mp_wall.latch.test
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

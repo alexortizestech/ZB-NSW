@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+<<<<<<< Updated upstream
+guid: 9f9683c32f9e5484a8e9e71724cf2898
+=======
+guid: 29d7d5192d18ba74dbe9075ff26520dc
+>>>>>>> Stashed changes
+labels:
+- Input
+- Joysticks
+- Controllers
+- Rewired
+- Hotplugging
+- Keyboard
+- Mouse
+- Touch
+- InputManager
+- Control
+- Gamepad
+- Controller
+- Joystick
+- Xbox360
+- XInput
+- DirectInput
+folderAsset: yes
+DefaultImporter:
+  userData: 
