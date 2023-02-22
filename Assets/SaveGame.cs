@@ -91,13 +91,13 @@ public class SaveGame : MonoBehaviour
                 SavePlayerPrefs();
                 saveData = counter;
             }
-        }
+        }*/
 
         stringBuilder.AppendFormat("A:Save, B:Load, Y:Reset\nCounter: {0}\nSave data: {1}\nLoad data {2}",
             counter, saveData, loadData);
         counter++;
 
-        //textComponent.text = stringBuilder.ToString();*/
+       //textComponent.text = stringBuilder.ToString();
     }
 
     private void OnDestroy()
@@ -157,9 +157,14 @@ public class SaveGame : MonoBehaviour
     {
 #if !UNITY_SWITCH || UNITY_EDITOR
         PlayerPrefs.Save();
+
+
+
 #else
-        byte[] data =ES3.LoadRawBytes();
+         byte[] data = ES3.LoadRawBytes();
+         ES3.AppendRaw(data);
         long saveDataSize = data.LongLength;
+        
 
         UnityEngine.Switch.Notification.EnterExitRequestHandlingSection();
 

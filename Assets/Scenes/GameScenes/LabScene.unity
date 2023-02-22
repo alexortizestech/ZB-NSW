@@ -24758,6 +24758,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5721205954220572291, guid: 34c098504dabe3b4c9b56273afc1f5a2,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -2.47
+      objectReference: {fileID: 0}
     - target: {fileID: 5721205954220572302, guid: 34c098504dabe3b4c9b56273afc1f5a2,
         type: 3}
       propertyPath: m_RootOrder

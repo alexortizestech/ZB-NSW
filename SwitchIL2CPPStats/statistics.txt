@@ -1,71 +1,71 @@
 ----IL2CPP Arguments----
---convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot --compile-cpp --platform=Switch --architecture=ARM64 --configuration=Release --outputpath=D:\PiEXE\Killing-Project\Temp\StagingArea\Native\SwitchPlayer.nss --cachedirectory=D:/PiEXE/Killing-Project/Assets/../SwitchIL2CPPCache/il2cpp_cache --linker-flags=-lD:\PiEXE\Killing-Project\Temp\StagingArea\NativePlugins\NintendoSDKPlugin.a -lD:\PiEXE\Killing-Project\Temp\StagingArea\NativePlugins\Rewired_NintendoSwitch_NX64.a --plugin=C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/PlaybackEngines/Switch/Tools\Il2CppPlugin.dll --additional-include-directories=C:\Program Files\Unity\Hub\Editor\2019.4.19f1\Editor\Data\PlaybackEngines\Switch\Tools/il2cpp\bdwgc/include --additional-include-directories=C:\Program Files\Unity\Hub\Editor\2019.4.19f1\Editor\Data\PlaybackEngines\Switch\Tools/il2cpp\libil2cpp/include --verbose --enable-stats --stats-output-dir=D:/PiEXE/Killing-Project/Assets/../SwitchIL2CPPStats --libil2cpp-static --additional-defines=DEBUGMODE=0,UNITY_RELEASE=1,IL2CPP_USE_SOCKET_MULTIPLEX_IO=1 --additional-cpp=D:\PiEXE\Killing-Project\Temp\StagingArea\SourcePlugins\UnityAdsLoadListener.h --additional-cpp=D:\PiEXE\Killing-Project\Temp\StagingArea\SourcePlugins\UnityAdsShowListener.h --additional-cpp=D:\PiEXE\Killing-Project\Temp\StagingArea\SourcePlugins\UnityAdsInitializationListener.h --configuration=ReleasePlus --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe --directory=D:/PiEXE/Killing-Project/Temp/StagingArea/Managed --generatedcppdir=D:/PiEXE/Killing-Project/Temp/StagingArea/il2cppOutput
+--convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot --compile-cpp --platform=Switch --architecture=ARM64 --configuration=Release --outputpath=D:\ZB-NSW\Temp\StagingArea\Native\SwitchPlayer.nss --cachedirectory=D:/ZB-NSW/Assets/../SwitchIL2CPPCache/il2cpp_cache --linker-flags=-lD:\ZB-NSW\Temp\StagingArea\NativePlugins\NintendoSDKPlugin.a -lD:\ZB-NSW\Temp\StagingArea\NativePlugins\Rewired_NintendoSwitch_NX64.a --plugin=C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/PlaybackEngines/Switch/Tools\Il2CppPlugin.dll --additional-include-directories=C:\Program Files\Unity\Hub\Editor\2019.4.19f1\Editor\Data\PlaybackEngines\Switch\Tools/il2cpp\bdwgc/include --additional-include-directories=C:\Program Files\Unity\Hub\Editor\2019.4.19f1\Editor\Data\PlaybackEngines\Switch\Tools/il2cpp\libil2cpp/include --verbose --enable-stats --stats-output-dir=D:/ZB-NSW/Assets/../SwitchIL2CPPStats --libil2cpp-static --additional-defines=DEBUGMODE=0,UNITY_RELEASE=1,IL2CPP_USE_SOCKET_MULTIPLEX_IO=1 --additional-cpp=D:\ZB-NSW\Temp\StagingArea\SourcePlugins\UnityAdsLoadListener.h --additional-cpp=D:\ZB-NSW\Temp\StagingArea\SourcePlugins\UnityAdsShowListener.h --additional-cpp=D:\ZB-NSW\Temp\StagingArea\SourcePlugins\UnityAdsInitializationListener.h --configuration=ReleasePlus --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe --directory=D:/ZB-NSW/Temp/StagingArea/Managed --generatedcppdir=D:/ZB-NSW/Temp/StagingArea/il2cppOutput
 
 ----Assemblies Converted-----
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Assembly-CSharp-firstpass.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Assembly-CSharp.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\BehaviorDesigner.Runtime.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Cinemachine.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\DOTween.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Mono.Security.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\mscorlib.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Rewired_Core.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Rewired_NintendoSwitch.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\System.Configuration.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\System.Core.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\System.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\System.Xml.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Tayx.Graphy.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Unity.InputSystem.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Unity.InputSystem.Switch.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Unity.Postprocessing.Runtime.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Unity.RenderPipelines.Core.Runtime.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Unity.RenderPipelines.Universal.Runtime.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Unity.TextMeshPro.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\Unity.Timeline.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.AIModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.AndroidJNIModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.AnimationModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.AssetBundleModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.AudioModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.CoreModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.DirectorModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.GridModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.ImageConversionModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.IMGUIModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.InputLegacyModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.InputModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.JSONSerializeModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.ParticleSystemModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.Physics2DModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.PhysicsModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.ScreenCaptureModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.SharedInternalsModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.SubsystemsModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.SwitchModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.TerrainModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.TerrainPhysicsModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.TextCoreModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.TextRenderingModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.TilemapModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.UI.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.UIElementsModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.UIModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.UnityWebRequestAudioModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.UnityWebRequestModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.VehiclesModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.VFXModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.VideoModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.VRModule.dll
-	D:\PiEXE\Killing-Project\Temp\StagingArea\Managed\UnityEngine.XRModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Assembly-CSharp-firstpass.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Assembly-CSharp.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\BehaviorDesigner.Runtime.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Cinemachine.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\DOTween.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Mono.Security.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\mscorlib.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Rewired_Core.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Rewired_NintendoSwitch.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\System.Configuration.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\System.Core.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\System.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\System.Xml.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Tayx.Graphy.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Unity.InputSystem.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Unity.InputSystem.Switch.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Unity.Postprocessing.Runtime.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Unity.RenderPipelines.Core.Runtime.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Unity.TextMeshPro.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\Unity.Timeline.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.AIModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.AndroidJNIModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.AnimationModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.AssetBundleModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.AudioModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.CoreModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.DirectorModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.GridModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.ImageConversionModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.IMGUIModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.InputLegacyModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.InputModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.JSONSerializeModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.ParticleSystemModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.Physics2DModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.PhysicsModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.ScreenCaptureModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.SharedInternalsModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.SubsystemsModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.SwitchModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.TerrainModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.TerrainPhysicsModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.TextCoreModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.TextRenderingModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.TilemapModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.UI.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.UIElementsModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.UIModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.UnityWebRequestModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.VehiclesModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.VFXModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.VideoModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.VRModule.dll
+	D:\ZB-NSW\Temp\StagingArea\Managed\UnityEngine.XRModule.dll
 
 ----- il2cpp Statistics -----
 General:
-	Conversion Time: 51.701 s
+	Conversion Time: 45.317 s
 	Files Written: 362
-	String Literals: 11862
+	String Literals: 11863
 Methods:
 	Total Methods: 107680
 	Non-Generic Methods: 62972
@@ -74,9 +74,9 @@ Methods:
 	Shared Methods: 44577
 	Methods with Tail Calls : 0
 Metadata:
-	Total: 9,496.82 kb
-	String Literals: 92.67 kb
-	String Literal Data: 319.66 kb
+	Total: 9,496.92 kb
+	String Literals: 92.68 kb
+	String Literal Data: 319.73 kb
 	Metadata Strings: 1,312.70 kb
 	Events: 5.32 kb
 	Properties: 272.77 kb
@@ -97,8 +97,8 @@ Metadata:
 	Type Definitions: 886.40 kb
 	Images: 2.27 kb
 	Assemblies: 3.63 kb
-	Metadata Usage Lists: 357.29 kb
-	Metadata Usage Pairs: 1,319.27 kb
+	Metadata Usage Lists: 357.30 kb
+	Metadata Usage Pairs: 1,319.29 kb
 	Field Refs: 1.95 kb
 	Referenced Assemblies: 1.42 kb
 	Attribute Types Ranges: 219.28 kb
@@ -108,7 +108,7 @@ Metadata:
 	Windows Runtime type names: 0.00 kb
 	Exported Types: 4.57 kb
 Codegen:
-	NullChecks : 219822
+	NullChecks : 219823
 Hashing:
 	String Literal Hash Collisions : 0
 	Type Hash Collisions : 1
@@ -125,83 +125,83 @@ Interop:
 	COM callable wrapper methods that were forwarded to call base class method : 0
 Compilation:
 	Total Files: 433
-	Files Compiled: 37
-	Cache Hits: 396
-	Cache Hit %: 91
+	Files Compiled: 426
+	Cache Hits: 7
+	Cache Hit %: 1
 
 
 ----Assembly Conversion Times----
-	Convert Assembly-CSharp (2344.45849609375ms)
-	Convert Assembly-CSharp-firstpass (780.484375ms)
-	Convert BehaviorDesigner.Runtime (276.774291992188ms)
-	Convert Cinemachine (406.320098876953ms)
-	Convert DOTween (374.781494140625ms)
-	Convert Mono.Security (101.345901489258ms)
-	Convert mscorlib (2460.04370117188ms)
-	Convert Rewired_Core (3744.43530273438ms)
-	Convert Rewired_NintendoSwitch (94.1033020019531ms)
-	Convert System (794.875671386719ms)
-	Convert System.Configuration (2.75430011749268ms)
-	Convert System.Core (485.481414794922ms)
-	Convert System.Xml (1423.27709960938ms)
-	Convert Tayx.Graphy (75.9668960571289ms)
-	Convert Unity.InputSystem (1187.65734863281ms)
-	Convert Unity.InputSystem.Switch (63.9847984313965ms)
-	Convert Unity.Postprocessing.Runtime (270.9375ms)
-	Convert Unity.RenderPipeline.Universal.ShaderLibrary (1.24660003185272ms)
-	Convert Unity.RenderPipelines.Core.Runtime (359.047912597656ms)
-	Convert Unity.RenderPipelines.Universal.Runtime (394.055999755859ms)
-	Convert Unity.TextMeshPro (3064.00244140625ms)
-	Convert Unity.Timeline (221.537796020508ms)
-	Convert UnityEngine (0.698499977588654ms)
-	Convert UnityEngine.AIModule (6.30089998245239ms)
-	Convert UnityEngine.AndroidJNIModule (38.4029006958008ms)
-	Convert UnityEngine.AnimationModule (33.5352973937988ms)
-	Convert UnityEngine.AssetBundleModule (2.62930011749268ms)
-	Convert UnityEngine.AudioModule (16.5359992980957ms)
-	Convert UnityEngine.CoreModule (451.006988525391ms)
-	Convert UnityEngine.DirectorModule (3.77589988708496ms)
-	Convert UnityEngine.GridModule (0.691799998283386ms)
-	Convert UnityEngine.ImageConversionModule (0.927900016307831ms)
-	Convert UnityEngine.IMGUIModule (146.342697143555ms)
-	Convert UnityEngine.InputLegacyModule (10.079400062561ms)
-	Convert UnityEngine.InputModule (4.24060010910034ms)
-	Convert UnityEngine.JSONSerializeModule (1.98020005226135ms)
-	Convert UnityEngine.ParticleSystemModule (97.5364990234375ms)
-	Convert UnityEngine.Physics2DModule (22.0891990661621ms)
-	Convert UnityEngine.PhysicsModule (26.3085994720459ms)
-	Convert UnityEngine.ScreenCaptureModule (0.894999980926514ms)
-	Convert UnityEngine.SharedInternalsModule (11.9872999191284ms)
-	Convert UnityEngine.SubsystemsModule (6.76429986953735ms)
-	Convert UnityEngine.SwitchModule (5.83039999008179ms)
-	Convert UnityEngine.TerrainModule (15.9399003982544ms)
-	Convert UnityEngine.TerrainPhysicsModule (0.718299984931946ms)
-	Convert UnityEngine.TextCoreModule (214.666809082031ms)
-	Convert UnityEngine.TextRenderingModule (11.760199546814ms)
-	Convert UnityEngine.TilemapModule (59.1294021606445ms)
-	Convert UnityEngine.UI (475.216064453125ms)
-	Convert UnityEngine.UIElementsModule (152.428405761719ms)
-	Convert UnityEngine.UIModule (11.7020998001099ms)
-	Convert UnityEngine.UnityWebRequestAudioModule (2.23259997367859ms)
-	Convert UnityEngine.UnityWebRequestModule (29.335298538208ms)
-	Convert UnityEngine.VehiclesModule (1.14320003986359ms)
-	Convert UnityEngine.VFXModule (4.64010000228882ms)
-	Convert UnityEngine.VideoModule (4.53879976272583ms)
-	Convert UnityEngine.VRModule (3.73769998550415ms)
-	Convert UnityEngine.XRModule (22.5984001159668ms)
+	Convert Assembly-CSharp (2473.71020507813ms)
+	Convert Assembly-CSharp-firstpass (908.377014160156ms)
+	Convert BehaviorDesigner.Runtime (202.317001342773ms)
+	Convert Cinemachine (393.365203857422ms)
+	Convert DOTween (420.287322998047ms)
+	Convert Mono.Security (96.9197998046875ms)
+	Convert mscorlib (2428.22241210938ms)
+	Convert Rewired_Core (3004.37866210938ms)
+	Convert Rewired_NintendoSwitch (81.9241027832031ms)
+	Convert System (708.564147949219ms)
+	Convert System.Configuration (2.71869993209839ms)
+	Convert System.Core (493.207183837891ms)
+	Convert System.Xml (1373.55310058594ms)
+	Convert Tayx.Graphy (70.9516983032227ms)
+	Convert Unity.InputSystem (1098.87280273438ms)
+	Convert Unity.InputSystem.Switch (9.2524995803833ms)
+	Convert Unity.Postprocessing.Runtime (263.248779296875ms)
+	Convert Unity.RenderPipeline.Universal.ShaderLibrary (0.917500019073486ms)
+	Convert Unity.RenderPipelines.Core.Runtime (314.014892578125ms)
+	Convert Unity.RenderPipelines.Universal.Runtime (346.811584472656ms)
+	Convert Unity.TextMeshPro (784.558288574219ms)
+	Convert Unity.Timeline (191.579498291016ms)
+	Convert UnityEngine (0.720600008964539ms)
+	Convert UnityEngine.AIModule (5.31489992141724ms)
+	Convert UnityEngine.AndroidJNIModule (35.317699432373ms)
+	Convert UnityEngine.AnimationModule (31.7852001190186ms)
+	Convert UnityEngine.AssetBundleModule (2.51169991493225ms)
+	Convert UnityEngine.AudioModule (15.6091003417969ms)
+	Convert UnityEngine.CoreModule (467.118682861328ms)
+	Convert UnityEngine.DirectorModule (3.68020009994507ms)
+	Convert UnityEngine.GridModule (0.683000028133392ms)
+	Convert UnityEngine.ImageConversionModule (0.970700025558472ms)
+	Convert UnityEngine.IMGUIModule (137.005401611328ms)
+	Convert UnityEngine.InputLegacyModule (9.58180046081543ms)
+	Convert UnityEngine.InputModule (3.89660000801086ms)
+	Convert UnityEngine.JSONSerializeModule (1.82400000095367ms)
+	Convert UnityEngine.ParticleSystemModule (92.5850982666016ms)
+	Convert UnityEngine.Physics2DModule (21.7245998382568ms)
+	Convert UnityEngine.PhysicsModule (25.1072006225586ms)
+	Convert UnityEngine.ScreenCaptureModule (0.921700000762939ms)
+	Convert UnityEngine.SharedInternalsModule (11.4920997619629ms)
+	Convert UnityEngine.SubsystemsModule (6.59819984436035ms)
+	Convert UnityEngine.SwitchModule (5.81300020217896ms)
+	Convert UnityEngine.TerrainModule (15.0207004547119ms)
+	Convert UnityEngine.TerrainPhysicsModule (0.647700011730194ms)
+	Convert UnityEngine.TextCoreModule (21.5472984313965ms)
+	Convert UnityEngine.TextRenderingModule (11.2479000091553ms)
+	Convert UnityEngine.TilemapModule (58.5564994812012ms)
+	Convert UnityEngine.UI (438.54541015625ms)
+	Convert UnityEngine.UIElementsModule (158.542098999023ms)
+	Convert UnityEngine.UIModule (10.8642997741699ms)
+	Convert UnityEngine.UnityWebRequestAudioModule (2.68179988861084ms)
+	Convert UnityEngine.UnityWebRequestModule (27.3001976013184ms)
+	Convert UnityEngine.VehiclesModule (1.05169999599457ms)
+	Convert UnityEngine.VFXModule (4.18860006332397ms)
+	Convert UnityEngine.VideoModule (4.48750019073486ms)
+	Convert UnityEngine.VRModule (3.98970007896423ms)
+	Convert UnityEngine.XRModule (20.7028999328613ms)
 
 ----Misc Timing----
-	PreProcessStage: 888.919555664063
+	PreProcessStage: 851.376037597656
 	GenericsCollector.Collect: None
-	WriteGenerics: 14885.529296875
-	AllAssemblyConversion: 21801.14453125
+	WriteGenerics: 13051.412109375
+	AllAssemblyConversion: 18227.359375
 
 ----Generated Files----
 Assembly-CSharp.cpp	2097934
 Assembly-CSharp1.cpp	2062550
 Assembly-CSharp10.cpp	2978758
 Assembly-CSharp11.cpp	2795368
-Assembly-CSharp12.cpp	2529124
+Assembly-CSharp12.cpp	2531411
 Assembly-CSharp13.cpp	1633429
 Assembly-CSharp14.cpp	1532816
 Assembly-CSharp2.cpp	1984440
