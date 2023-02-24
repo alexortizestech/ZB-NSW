@@ -160,6 +160,7 @@ public class SaveGame : MonoBehaviour
 
 
 
+
 #else
          byte[] data = ES3.LoadRawBytes();
          ES3.AppendRaw(data);
@@ -168,7 +169,8 @@ public class SaveGame : MonoBehaviour
 
         UnityEngine.Switch.Notification.EnterExitRequestHandlingSection();
 
-        nn.Result result = nn.fs.File.Open(ref fileHandle, filePath, nn.fs.OpenFileMode.Write);
+        //nn.Result result = nn.fs.File.Open(ref fileHandle, filePath, nn.fs.OpenFileMode.Write);
+          nn.Result result = (nn.fs.File.Open(ref fileHandle, filePath, nn.fs.OpenFileMode.Write | nn.fs.OpenFileMode.AllowAppend));
         result.abortUnlessSuccess();
 
         const int offset = 0;
