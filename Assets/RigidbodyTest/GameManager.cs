@@ -146,7 +146,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Pause");
         mv.enabled = false;
         PauseMenu.SetActive(true);
-        EventSystem.current.SetSelectedGameObject(PauseMenu.transform.Find("Resume").gameObject);
+        EventSystem.current.SetSelectedGameObject(PauseMenu.transform.Find("ContinueButton").gameObject);
         gamePaused = true;
         Time.timeScale = 0;
        // Cursor.visible = true;
