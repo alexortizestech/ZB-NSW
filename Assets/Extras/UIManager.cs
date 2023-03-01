@@ -11,7 +11,7 @@ public class UIManager : MonoBehaviour
 
     public GameObject first;
 
-public Slider volumeSlider;
+public Slider volumeSlider,fxslider;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +26,17 @@ public Slider volumeSlider;
         {
             Load();
         }
+        if (!PlayerPrefs.HasKey("fxVolume"))
+        {
+            PlayerPrefs.SetFloat("fxVolume", 0.5f);
+            Load();
+        }
+        else
+        {
+            Load();
+        }
 
-
-      //  SetSelected(first);
+        //  SetSelected(first);
 
     }
     // Update is called once per frame
