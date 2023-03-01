@@ -623,7 +623,7 @@ MonoBehaviour:
     value: 1
   amount:
     overrideState: 1
-    value: 2.3
+    value: 2
 --- !u!114 &-522751041125706414
 MonoBehaviour:
   m_ObjectHideFlags: 3

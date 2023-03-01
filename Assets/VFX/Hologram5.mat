@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hologram1
+  m_Name: Hologram5
   m_Shader: {fileID: -6465566751694194690, guid: bb94eec80646afa48a4eff60631affe8,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_771D2B56:
-        m_Texture: {fileID: 2800000, guid: d904b309f84978f48841f8f819f4aa04, type: 3}
+        m_Texture: {fileID: 2800000, guid: edb39b98b8047c845a6b8c5761053051, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -53,9 +53,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_3C89BD60: 0.2
+    - Vector1_3C89BD60: 0.04
     - Vector1_46D11EDA: 3
-    - Vector1_B532701D: 0.1
+    - Vector1_B532701D: 0.2
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -78,9 +78,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_3FD1272C: {r: 0.21176471, g: 1.4980392, b: 1.1607844, a: 0}
+    - Color_3FD1272C: {r: 106.41569, g: 52.203922, b: 191.74902, a: 1}
     - Color_9DF2F63E: {r: 11.482353, g: 3.0117648, b: 11.984314, a: 0}
-    - Vector2_E2FE45C9: {r: 1, g: 4, b: 0, a: 0}
+    - Vector2_E2FE45C9: {r: 2, g: 2, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
