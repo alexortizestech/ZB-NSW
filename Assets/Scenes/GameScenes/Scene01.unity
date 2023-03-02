@@ -42551,6 +42551,12 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: ded52ac496b0fad4d943e10615b15b29, type: 3}
+    - target: {fileID: 8101414574438615201, guid: 138d63b17f69ceb4281d5fa513a34fd4,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: ec60dc19b197c164b9d97680210ac6e7,
+        type: 2}
     - target: {fileID: 8101414574438615202, guid: 138d63b17f69ceb4281d5fa513a34fd4,
         type: 3}
       propertyPath: m_RootOrder
@@ -56989,6 +56995,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5697517409508436667, guid: 9e76bd8a2e4be6e4383ceac5f4188c99,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 60c254e8715291c49863f5f4e47da3f5,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e76bd8a2e4be6e4383ceac5f4188c99, type: 3}
 --- !u!4 &5697517409808345730 stripped
