@@ -8,8 +8,8 @@ public class MainMenuScript : MonoBehaviour
     void Start()
     {
         ES3.Save<bool>("Start", true);
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
         ES3.Save<bool>("SpeedRunMode", false);
         Application.targetFrameRate = 30;
     }
