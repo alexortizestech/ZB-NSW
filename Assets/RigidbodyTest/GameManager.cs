@@ -154,10 +154,10 @@ public class GameManager : MonoBehaviour
 
     public void Resume()
     {
-        if (OptionsMenu.activeInHierarchy)
+       /* if (OptionsMenu.activeInHierarchy)
         {
             OptionsMenu.SetActive(false);
-        }
+        }*/
         Time.timeScale = 1;
         mv.enabled = true;
         PauseMenu.SetActive(false);

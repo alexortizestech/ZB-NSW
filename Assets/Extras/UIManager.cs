@@ -90,6 +90,7 @@ public Slider volumeSlider,fxslider;
     }
     public void MainMenu()
     {
+        ES3.Save<bool>("SpeedRunMode", false);
         SceneManager.LoadScene("MainMenuScene");
     }
 
