@@ -602,31 +602,6 @@ MonoBehaviour:
   dirtIntensity:
     overrideState: 0
     value: 0
---- !u!114 &-5552918337436696541
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e1fdbf04416b144db908e7ffe5e489f, type: 3}
-  m_Name: RLPro_NTSC
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  brightness:
-    overrideState: 0
-    value: 39.1
-  blur:
-    overrideState: 0
-    value: 0.83
-  lineSpeed:
-    overrideState: 0
-    value: 0.01
 --- !u!114 &-1206815382373480969
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -734,7 +709,6 @@ MonoBehaviour:
   - {fileID: -8445160657485241697}
   - {fileID: 6632520573723228486}
   - {fileID: 424410465343045405}
-  - {fileID: -5552918337436696541}
 --- !u!114 &31210152622622585
 MonoBehaviour:
   m_ObjectHideFlags: 3
