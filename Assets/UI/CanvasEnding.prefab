@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.005165388, b: 0.0754717, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -210,8 +210,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e315774715fc2da479d1fc6042ca3777, type: 2}
-  m_sharedMaterial: {fileID: 1577435384585404701, guid: e315774715fc2da479d1fc6042ca3777,
+  m_fontAsset: {fileID: 11400000, guid: a7c9b36de812d7540b7ad6d55d079f0a, type: 2}
+  m_sharedMaterial: {fileID: -8187104522132354997, guid: a7c9b36de812d7540b7ad6d55d079f0a,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -346,8 +346,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e315774715fc2da479d1fc6042ca3777, type: 2}
-  m_sharedMaterial: {fileID: 1577435384585404701, guid: e315774715fc2da479d1fc6042ca3777,
+  m_fontAsset: {fileID: 11400000, guid: a7c9b36de812d7540b7ad6d55d079f0a, type: 2}
+  m_sharedMaterial: {fileID: -8187104522132354997, guid: a7c9b36de812d7540b7ad6d55d079f0a,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -587,8 +587,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e315774715fc2da479d1fc6042ca3777, type: 2}
-  m_sharedMaterial: {fileID: 1577435384585404701, guid: e315774715fc2da479d1fc6042ca3777,
+  m_fontAsset: {fileID: 11400000, guid: a7c9b36de812d7540b7ad6d55d079f0a, type: 2}
+  m_sharedMaterial: {fileID: -8187104522132354997, guid: a7c9b36de812d7540b7ad6d55d079f0a,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -783,7 +783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 116, y: -177}
+  m_AnchoredPosition: {x: 184, y: -177}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6302112587090818500
@@ -815,8 +815,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press jump to continue
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4d381a821ba751b459c5e726cac0a661, type: 2}
-  m_sharedMaterial: {fileID: -4254473084448178508, guid: 4d381a821ba751b459c5e726cac0a661,
+  m_fontAsset: {fileID: 11400000, guid: 59c403c8b2d53bc478319ac6fdf82151, type: 2}
+  m_sharedMaterial: {fileID: -8187104522132354997, guid: 59c403c8b2d53bc478319ac6fdf82151,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -930,6 +930,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9107170996769759440, guid: b9ff9d08b67f5bb40908e2313d1c80b2,
         type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9107170996769759440, guid: b9ff9d08b67f5bb40908e2313d1c80b2,
+        type: 3}
       propertyPath: m_UseCustomVertexStreams
       value: 1
       objectReference: {fileID: 0}
@@ -942,11 +947,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9107170996769759440, guid: b9ff9d08b67f5bb40908e2313d1c80b2,
-        type: 3}
-      propertyPath: m_VertexStreams.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9107170996769759440, guid: b9ff9d08b67f5bb40908e2313d1c80b2,
         type: 3}
@@ -1085,6 +1085,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9107170996769759440, guid: b9ff9d08b67f5bb40908e2313d1c80b2,
         type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9107170996769759440, guid: b9ff9d08b67f5bb40908e2313d1c80b2,
+        type: 3}
       propertyPath: m_UseCustomVertexStreams
       value: 1
       objectReference: {fileID: 0}
@@ -1097,11 +1102,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9107170996769759440, guid: b9ff9d08b67f5bb40908e2313d1c80b2,
-        type: 3}
-      propertyPath: m_VertexStreams.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9107170996769759440, guid: b9ff9d08b67f5bb40908e2313d1c80b2,
         type: 3}
