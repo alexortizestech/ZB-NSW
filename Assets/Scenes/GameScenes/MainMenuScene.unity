@@ -9859,6 +9859,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2802770575478924594, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4861244692697612964, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
       propertyPath: m_Name
@@ -9872,7 +9877,7 @@ PrefabInstance:
     - target: {fileID: 5059683793758765566, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5059683793758765566, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
@@ -9882,12 +9887,12 @@ PrefabInstance:
     - target: {fileID: 5059683793758765566, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5423039082127532069, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5423039082127532069, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
@@ -9897,7 +9902,7 @@ PrefabInstance:
     - target: {fileID: 5864217041672630394, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5864217041672630394, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
@@ -9907,12 +9912,12 @@ PrefabInstance:
     - target: {fileID: 5864217041672630394, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6377207427336565731, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6377207427336565731, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
         type: 3}
@@ -10045,6 +10050,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainMenu: {fileID: 690173901}
+--- !u!1 &1076634061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5147598766086673561, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
+    type: 3}
+  m_PrefabInstance: {fileID: 1076634058}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1106884226
 GameObject:
   m_ObjectHideFlags: 0
@@ -15214,6 +15225,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1165734111}
+        m_MethodName: SetSelected
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1076634061}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
