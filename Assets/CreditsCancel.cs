@@ -6,7 +6,10 @@ using Rewired;
 using UnityEngine.EventSystems;
 public class CreditsCancel : MonoBehaviour
 {
+    public bool Options;
+    public UIManager ui;
     public GameObject MainMenu;
+    public GameObject optbt;
     Player player;
     // Start is called before the first frame update
     void Start()
@@ -20,6 +23,10 @@ public class CreditsCancel : MonoBehaviour
         if (player.GetButtonDown("UICancel"))
         {
             MainMenu.SetActive(true);
+            if (Options)
+            {
+                ui.SetSelected(optbt);
+            }
             this.gameObject.SetActive(false);
         }
     }

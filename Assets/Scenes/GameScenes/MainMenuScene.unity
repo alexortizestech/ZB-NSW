@@ -1524,7 +1524,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddb432050daafbb4b91ad2f626c1ea7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Options: 0
+  ui: {fileID: 0}
   MainMenu: {fileID: 690173901}
+  optbt: {fileID: 0}
 --- !u!1 &277400065
 GameObject:
   m_ObjectHideFlags: 0
@@ -10049,7 +10052,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddb432050daafbb4b91ad2f626c1ea7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Options: 1
+  ui: {fileID: 1165734111}
   MainMenu: {fileID: 690173901}
+  optbt: {fileID: 1250137904}
 --- !u!1 &1076634061 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5147598766086673561, guid: 7e4a9d6c1e3d26a4abb1d6df95adcc05,
