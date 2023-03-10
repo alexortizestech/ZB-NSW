@@ -10,6 +10,7 @@ public class SetResolution : MonoBehaviour
     void Start()
     {
         Set720();
+        QualitySettings.vSyncCount = 0;
     }
 
     // Update is called once per frame

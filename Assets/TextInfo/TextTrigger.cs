@@ -41,7 +41,7 @@ public class TextTrigger : MonoBehaviour
         if (collision.CompareTag("Player") && !IsTriggered)
         {
             Debug.Log("EnteredDialogue");
-            if (player.GetButtonDown("Slash") || Input.GetKeyDown(KeyCode.E))
+            if (player.GetAnyButtonDown() || Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("TriggeredDialogue");
                 globitoText.SetActive(true);
