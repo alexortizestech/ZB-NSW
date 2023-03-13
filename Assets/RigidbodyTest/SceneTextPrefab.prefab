@@ -48,7 +48,12 @@ MonoBehaviour:
   Prefab: {fileID: 4035353770630342326}
   ComboText: {fileID: 4035353770436311000}
   HighScoreText: {fileID: 4035353769896775827}
-  CollectableTaken: {fileID: 4035353770946697178}
+  Coll03: {fileID: 0}
+  Coll04: {fileID: 0}
+  Coll06: {fileID: 0}
+  Coll07: {fileID: 0}
+  Coll08: {fileID: 0}
+  NotTaken: {fileID: 0}
 --- !u!1 &4035353769896775853
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,8 +120,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 59c403c8b2d53bc478319ac6fdf82151, type: 2}
+  m_sharedMaterial: {fileID: -8187104522132354997, guid: 59c403c8b2d53bc478319ac6fdf82151,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -140,8 +146,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -348,8 +354,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 59c403c8b2d53bc478319ac6fdf82151, type: 2}
+  m_sharedMaterial: {fileID: -8187104522132354997, guid: 59c403c8b2d53bc478319ac6fdf82151,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -373,8 +380,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
